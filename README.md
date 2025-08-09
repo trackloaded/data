@@ -42,7 +42,7 @@ Each artist profile page supports RDF output via query parameters:
 
 ---
 
-## 🧠 Sample SPARQL Query
+## Sample SPARQL Query
 ```sparql
 SELECT ?name ?url ?bio
 WHERE {
