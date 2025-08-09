@@ -38,4 +38,4 @@
                <https://musicbrainz.org/label/d1b6bf6d-8d1a-4c8b-a22c-59e6ba16df72> ,
                <https://www.discogs.com/label/4153909-Trackloaded> ,
                <https://lod-cloud.net/dataset/trackloaded> ,
-               <https://zenodo.org/records/16777416> .
+               <https://doi.org/10.5281/zenodo.16777415> .
