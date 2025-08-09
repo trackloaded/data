@@ -52,15 +52,16 @@ WHERE {
 }
 
 ```
-Vocabularies Used
+## Vocabularies Used
 	•	FOAF (foaf:name, foaf:homepage, foaf:bio)
 	•	Schema.org (schema:birthDate, schema:alternateName)
 	•	Music Ontology (mo:genre)
-	•	OWL (owl:sameAs for social and identity links)
+	•	OWL (owl:sameAs for external identity links)
+
 
 ⸻
 
-License
+## License
 
 This dataset is licensed under the
 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://trackloaded.com/tag/olamide/?format=ttl).
@@ -68,6 +69,6 @@ You are free to use, share, and adapt the data, with attribution to Trackloaded.
 
 ⸻
 
-Publisher
+## Publisher
 
 Trackloaded – https://trackloaded.com
