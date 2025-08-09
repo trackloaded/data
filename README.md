@@ -5,7 +5,6 @@ This repository contains the **Trackloaded Artist Dataset**, an open dataset pro
 The dataset includes:
 - Artist names
 - Profile pages
-- Genres
 - Biographies
 - Birth dates
 - Social media and external identity links (Wikidata, MusicBrainz, Discogs, etc.)
@@ -22,6 +21,7 @@ The data is published in **RDF** formats and is queryable via a public **SPARQL 
 ---
 
 ## 🔗 Access Points
+- **Dataset Homepage:** [https://trackloaded.com/data](https://trackloaded.com/data)  
 - **SPARQL Endpoint:** [https://trackloaded.com/sparql-endpoint.php](https://trackloaded.com/sparql-endpoint.php)  
 - **SPARQL Browser UI:** [https://trackloaded.com/sparql-browser](https://trackloaded.com/sparql-browser)  
 - **VoID Metadata:** [https://trackloaded.com/?void=1](https://trackloaded.com/?void=1)  
