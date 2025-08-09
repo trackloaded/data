@@ -1,0 +1,41 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<> a void:Dataset ;
+   dcterms:title "Trackloaded Artist Dataset" ;
+   dcterms:description "Structured linked data about Nigerian music artists featured on Trackloaded, covering names, genres, biographies, birth dates, and social identities." ;
+   dcterms:publisher <https://trackloaded.com/> ;
+   dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+   void:sparqlEndpoint <https://trackloaded.com/sparql-endpoint.php> ;
+   void:uriSpace "https://trackloaded.com/tag/" ;
+   void:dataDump <https://trackloaded.com/?build_rdf_sitemap> ;
+   void:exampleResource <https://trackloaded.com/tag/asake/> ;
+   void:triples 1000 .
+
+<https://trackloaded.com/sparql-endpoint.php>
+    a void:Dataset ;
+    dcterms:title "Trackloaded Artist Profiles" ;
+    dcterms:description "This dataset contains RDF metadata about Nigerian music artists featured on Trackloaded, including names, homepages, social links, biographies, birth dates, and more." ;
+    void:uriSpace "https://trackloaded.com/tag/" ;
+    void:uriRegexPattern "^https://trackloaded\\.com/tag/.+" ;
+    void:exampleResource <https://trackloaded.com/tag/asake/> ;
+    foaf:homepage <https://trackloaded.com/> .
+
+<https://trackloaded.com/> a foaf:Organization ;
+    foaf:name "Trackloaded" ;
+    owl:sameAs <https://g.co/kgs/BcqsCrZ> ,
+               <https://instagram.com/trackloaded> ,
+               <https://www.youtube.com/@trackloaded> ,
+               <https://www.linkedin.com/company/trackloadedcom> ,
+               <https://www.facebook.com/trackloaded.ng> ,
+               <https://x.com/trackloaded> ,
+               <https://domains.wikibase.cloud/wiki/Item:Q315676> ,
+               <https://soundcloud.com/trackloaded-tv/> ,
+               <https://www.crunchbase.com/organization/trackloaded-com-ng> ,
+               <https://www.imdb.com/company/co1133162> ,
+               <https://musicbrainz.org/label/d1b6bf6d-8d1a-4c8b-a22c-59e6ba16df72> ,
+               <https://www.discogs.com/label/4153909-Trackloaded> ,
+               <https://lod-cloud.net/dataset/trackloaded> ,
+               <https://zenodo.org/records/16777416> .
