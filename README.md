@@ -7,7 +7,7 @@ The dataset includes:
 - Profile pages
 - Biographies
 - Birth dates
-- Social media and external identity links (Wikidata, MusicBrainz, Discogs, etc.)
+- Social media and external identity links (Wikidata, instagram and more.)
 
 The data is published in **RDF** formats and is queryable via a public **SPARQL endpoint**.
 
