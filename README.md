@@ -13,14 +13,14 @@ The data is published in **RDF** formats and is queryable via a public **SPARQL 
 
 ---
 
-## 📂 Files in this repository
+## Files in this repository
 - **`void.ttl`** – VoID (Vocabulary of Interlinked Datasets) metadata describing the dataset  
 - **`README.md`** – This file  
 - **`LICENSE`** – Creative Commons Attribution 4.0 International License
 
 ---
 
-## 🔗 Access Points
+## Access Points
 - **Dataset Homepage:** [https://trackloaded.com/data](https://trackloaded.com/data)  
 - **SPARQL Endpoint:** [https://trackloaded.com/sparql-endpoint.php](https://trackloaded.com/sparql-endpoint.php)  
 - **SPARQL Browser UI:** [https://trackloaded.com/sparql-browser](https://trackloaded.com/sparql-browser)  
@@ -51,3 +51,23 @@ WHERE {
   OPTIONAL { ?x foaf:bio ?bio }
 }
 
+```
+Vocabularies Used
+	•	FOAF (foaf:name, foaf:homepage, foaf:bio)
+	•	Schema.org (schema:birthDate, schema:alternateName)
+	•	Music Ontology (mo:genre)
+	•	OWL (owl:sameAs for social and identity links)
+
+⸻
+
+License
+
+This dataset is licensed under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://trackloaded.com/tag/olamide/?format=ttl).
+You are free to use, share, and adapt the data, with attribution to Trackloaded.
+
+⸻
+
+Publisher
+
+Trackloaded – https://trackloaded.com
